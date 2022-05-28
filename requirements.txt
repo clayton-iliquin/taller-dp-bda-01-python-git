@@ -1,0 +1,5 @@
+requests==2.27.1
+pendulum==2.1.2
+pandas==1.4.2
+fire==0.4.0
+notebook==6.4.11

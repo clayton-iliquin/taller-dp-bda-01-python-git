@@ -1,0 +1,13 @@
+{
+  "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/$SERIE/json/1940/$YEAR/",
+  "headers": {"Content-Type": "application/json"},
+  "series": [
+    "PM04901AA",
+    "PM04902AA",
+    "PM04903AA",
+    "PM04904AA",
+    "PM04905AA",
+    "PM04906AA",
+    "PM04907AA"
+  ]
+}
