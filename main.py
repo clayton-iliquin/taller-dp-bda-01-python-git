@@ -20,10 +20,12 @@ from modules.utils.logger import get_logger, get_inspect
 # => logger object
 logger = get_logger()
 
+# obtenemos la fecha
 def current_date(region_city: str='America/Lima') -> str:
     c_date = pendulum.now(region_city).to_date_string()
     return c_date
 
+# 
 def request_data(api_url: str, headers: dict) -> dict:
     logger.info(get_inspect())
     
@@ -36,6 +38,7 @@ def request_data(api_url: str, headers: dict) -> dict:
         raise
     return api_data
 
+# 
 def make_table(api_data: dict, serie: str, record_path: str='periods') -> 'pandas.DataFrame':
     logger.info(get_inspect())
     
